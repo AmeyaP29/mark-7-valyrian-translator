@@ -1,0 +1,55 @@
+#output-div {
+
+    border: 0.1rem solid black;
+
+}
+
+body {
+
+    background-image: url(./images/old-valyria.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#btn-translate {
+
+    display: block;
+    margin: auto;
+    padding: 1rem;
+
+}
+
+#input-area {
+
+    height: 15rem;
+    width: 40rem;
+    margin: 2rem auto;
+    display: block;
+    background-color: #636c5f;
+
+}
+
+#output-div {
+
+    height: 15rem;
+    width: 40rem;
+    margin: 2rem auto;
+
+}
+
+footer div {
+
+    text-align: center;
+}
+
+h2 {
+
+    text-align: center;
+}
+
+h1 {
+
+    text-align: center;
+
+}

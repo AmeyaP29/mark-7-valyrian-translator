@@ -39,16 +39,23 @@ body {
 
     display: block;
     margin: auto;
-    padding: 1rem;
+    padding: rem;
     background-color: transparent;
     border:none;
+    font-weight: bold;
+    font-size: x-large;
 
 }
 
-#btn-translate:hover {
+#highlight-button-image, #btn-translate:hover #default-button-image{
 
-    flood-color: aliceblue;
+display: none;
+    
+}
 
+#default-button-image, #btn-translate:hover #highlight-button-image {
+
+    display:block;
 }
 
 #input-area {
@@ -92,6 +99,9 @@ footer div {
 h2 {
 
     text-align: center;
+    background-color: var(--transparent-theme);
+    width: fit-content;
+    margin:2rem auto;
 }
 
 h1 {
@@ -104,7 +114,7 @@ h1 {
 
 }
 
-#default-button-image {
+#default-button-image, #highlight-button-image {
 
     height:10rem;
     width:auto;

@@ -1,6 +1,14 @@
+@import url('//db.onlinewebfonts.com/c/97c4b25dc74e0ab045154e75a8fdd69d?family=Game+of+Thrones');
+
 #output-div {
 
     border: 0.1rem solid black;
+
+}
+
+:root {
+
+    --transparent-theme: hsla(100, 6%, 40%, 0.616);
 
 }
 
@@ -10,6 +18,21 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
+
+    @font-face {
+        font-family: "Game of Thrones";
+        src: url("//db.onlinewebfonts.com/t/97c4b25dc74e0ab045154e75a8fdd69d.eot");
+        src: url("//db.onlinewebfonts.com/t/97c4b25dc74e0ab045154e75a8fdd69d.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/97c4b25dc74e0ab045154e75a8fdd69d.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/97c4b25dc74e0ab045154e75a8fdd69d.woff") format("woff"), url("//db.onlinewebfonts.com/t/97c4b25dc74e0ab045154e75a8fdd69d.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/97c4b25dc74e0ab045154e75a8fdd69d.svg#Game of Thrones") format("svg");
+    }
+}
+
+::placeholder {
+
+    color:#37433e;
+    text-align: center;
+    padding-top: 3rem;
+    font-weight: bold;
 }
 
 #btn-translate {
@@ -17,6 +40,14 @@ body {
     display: block;
     margin: auto;
     padding: 1rem;
+    background-color: transparent;
+    border:none;
+
+}
+
+#btn-translate:hover {
+
+    flood-color: aliceblue;
 
 }
 
@@ -26,7 +57,12 @@ body {
     width: 40rem;
     margin: 2rem auto;
     display: block;
-    background-color: #636c5f;
+    background-color: var(--transparent-theme);
+    /* font-family: */
+    font-size: xx-large;
+    border: 0ch;
+    text-align: center;
+    padding-top: 6rem;
 
 }
 
@@ -35,12 +71,22 @@ body {
     height: 15rem;
     width: 40rem;
     margin: 2rem auto;
+    font-size: xx-large;
+    background-color: var(--transparent-theme);
+    border: 0ch;
+    text-align: center;
+    padding-top: 2rem;
 
 }
 
 footer div {
 
     text-align: center;
+    background-color:  hsla(100, 12%, 41%, 0.884);
+    font-size: xx-large;
+    width: 50rem;
+    margin: 2rem auto;
+    font-weight: bolder;
 }
 
 h2 {
@@ -51,5 +97,15 @@ h2 {
 h1 {
 
     text-align: center;
+    background-color: var(--transparent-theme);
+    background-size:contain;
+    width:max-content;
+    margin: 2rem auto;
 
+}
+
+#default-button-image {
+
+    height:10rem;
+    width:auto;
 }

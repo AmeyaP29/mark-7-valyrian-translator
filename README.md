@@ -19,8 +19,14 @@ https://user-images.githubusercontent.com/60094625/211655463-fee55db1-cc52-411c-
 
 ## Known Issues:
 
-Please note, the website currently displays the characteristic 'Game of Thrones' style font only on mozilla firefox. This is due to the fact that google chrome cannot load the font in the enforced default https mode, due to the font having an unsafe http only call.
+- Please note, the website currently displays the characteristic 'Game of Thrones' style font only on mozilla firefox. This is due to the fact that google chrome cannot load the font in the enforced default https mode, due to the font having an unsafe http only call.
+
+- The API that is used on this website, is rate limited to 5 translations per hour. When the threshold is exceeded, the broser will display an error, and you must wait an hour to use the website again
 
 ## Project Screens:
 
 ![ValyrianTranslator](https://user-images.githubusercontent.com/60094625/211655033-962eb639-9e83-4686-b0e9-0f1b38aa38e9.PNG)
+
+![ValyrianAPIError](https://user-images.githubusercontent.com/60094625/211659338-5f3e3b03-fe6e-4e45-a732-6fb4a8d83d43.PNG)
+
+

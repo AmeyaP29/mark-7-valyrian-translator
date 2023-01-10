@@ -97,6 +97,8 @@ display: none;
     padding-top: 2rem;
     font-family: "Game of Thrones";
     letter-spacing: 0.5rem;
+    overflow:scroll;
+    scrollbar-color: var(--transparent-theme);
 
 }
 
